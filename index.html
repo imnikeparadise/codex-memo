@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MemoFamily — цифровая семейная эстафета</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Spectral:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">
+        <span class="logo-pill">MEMO</span>
+        <span class="logo-text">Family</span>
+      </div>
+      <nav class="main-nav">
+        <a href="#concept">Концепция</a>
+        <a href="#how-it-works">Как это работает</a>
+        <a href="#packages">Тарифы</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#cta" class="nav-cta">Попробовать</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <p class="tagline">Цифровая семейная эстафета с ИИ-интервьюером</p>
+          <h1>Сохраняем память семьи, стежок за стежком</h1>
+          <p class="hero-text">
+            MemoFamily — это тёплый мир, где синяя нить связывает поколения. Мы автоматизируем интервью в Telegram, чтобы каждая история стала частью общей семейной книги.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#cta">Запустить эстафету</a>
+            <a class="btn ghost" href="#concept">Узнать подробнее</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="felt-stage">
+            <div class="felt-cloud cloud-left"></div>
+            <div class="felt-cloud cloud-right"></div>
+            <div class="felt-family">
+              <div class="felt-person elder">
+                <div class="felt-head"></div>
+                <div class="felt-body"></div>
+              </div>
+              <div class="felt-person parent">
+                <div class="felt-head"></div>
+                <div class="felt-body"></div>
+              </div>
+              <div class="felt-person child">
+                <div class="felt-head"></div>
+                <div class="felt-body"></div>
+              </div>
+            </div>
+            <svg class="thread-path" viewBox="0 0 320 200" preserveAspectRatio="none">
+              <path d="M10,160 C80,40 180,200 310,60" />
+            </svg>
+            <div class="felt-book">
+              <div class="book-cover"></div>
+              <div class="book-page"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-thread"></div>
+    </section>
+
+    <section class="concept" id="concept">
+      <div class="container">
+        <div class="section-heading">
+          <span class="label">Почему сейчас</span>
+          <h2>Мотивы, которые ведут семьи к MemoFamily</h2>
+          <p>Мы изучили мотивацию семей и собрали продукт вокруг четырёх главных потребностей.</p>
+        </div>
+        <div class="motives-grid">
+          <article class="motive-card">
+            <h3>Почтение предков</h3>
+            <p>80% семей хотят сохранить память о старших. Наши вопросы помогают записать тёплые истории о корнях.</p>
+          </article>
+          <article class="motive-card">
+            <h3>Любопытство к корням</h3>
+            <p>70% участников хотят понять, откуда они. Эстафета превращает поиск в совместное приключение.</p>
+          </article>
+          <article class="motive-card">
+            <h3>Наследие для детей</h3>
+            <p>60% думают о будущем поколении. Мы автоматически собираем материалы в удобную цифровую книгу.</p>
+          </article>
+          <article class="motive-card">
+            <h3>Интеллектуальное хобби</h3>
+            <p>55% ценят сам процесс. Уютный интерфейс и продуманная структура превращают интервью в увлекательный ритуал.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="unique" id="unique">
+      <div class="container">
+        <div class="section-heading">
+          <span class="label">Уникальность</span>
+          <h2>Что делает MemoFamily особенным</h2>
+        </div>
+        <div class="unique-grid">
+          <article class="unique-card">
+            <h3>Эстафетная механика</h3>
+            <p>Каждый участник завершает интервью и передаёт синюю нить дальше, создавая цепочку воспоминаний.</p>
+          </article>
+          <article class="unique-card">
+            <h3>ИИ-интервьюер</h3>
+            <p>GPT-4 задаёт уточняющие вопросы, оценивает полноту ответов и помогает раскрыть семейные истории.</p>
+          </article>
+          <article class="unique-card">
+            <h3>Полная автоматизация</h3>
+            <p>От выдачи кодов до финальной хроники — процессы собраны в n8n и Google Sheets.</p>
+          </article>
+          <article class="unique-card">
+            <h3>Telegram-native опыт</h3>
+            <p>Все этапы проходят в привычных ботах, без лишних интерфейсов и обучения.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="how-it-works" id="how-it-works">
+      <div class="container">
+        <div class="section-heading">
+          <span class="label">Путь эстафеты</span>
+          <h2>Как семейная нить проходит через всех</h2>
+        </div>
+        <div class="relay-steps">
+          <div class="relay-step">
+            <div class="step-number">1</div>
+            <h3>Заказчик активирует код семьи</h3>
+            <p>Покупка, активация в @MemoGeneralBot и настройка приветствия.</p>
+          </div>
+          <div class="relay-step">
+            <div class="step-number">2</div>
+            <h3>Раздаёт стартовые коды веток</h3>
+            <p>В зависимости от тарифа — 1, 3 или 6 веток по 6 участников в каждой.</p>
+          </div>
+          <div class="relay-step">
+            <div class="step-number">3</div>
+            <h3>Участники проходят интервью</h3>
+            <p>@MemoFamilyBot ведёт 40–50 вопросов с уточнениями, пока ответ не станет цельным.</p>
+          </div>
+          <div class="relay-step">
+            <div class="step-number">4</div>
+            <h3>Нить передаётся дальше</h3>
+            <p>После завершения участник получает новый код и инструкции для следующего родственника.</p>
+          </div>
+          <div class="relay-step">
+            <div class="step-number">5</div>
+            <h3>Собирается цифровая хроника</h3>
+            <p>Система суммаризирует диалоги и готовит семейную книгу воспоминаний.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tech" id="tech">
+      <div class="container">
+        <div class="section-heading">
+          <span class="label">Архитектура</span>
+          <h2>Технологический костяк MemoFamily MVP</h2>
+          <p>Основано на проверенных инструментах с минимальным временем запуска.</p>
+        </div>
+        <div class="tech-layout">
+          <div class="tech-card">
+            <h3>n8n Workflows</h3>
+            <ul>
+              <li>Customer Onboarding</li>
+              <li>Main Bot Flow</li>
+              <li>AI Conversation Processor</li>
+              <li>Notification Service</li>
+              <li>Progress Tracker</li>
+            </ul>
+          </div>
+          <div class="tech-card">
+            <h3>Хранилище</h3>
+            <ul>
+              <li>Google Sheets с таблицами Orders, Branches, Users, AccessCodes, Answers</li>
+              <li>Google Forms для первичного брифа</li>
+            </ul>
+          </div>
+          <div class="tech-card">
+            <h3>Интерфейсы</h3>
+            <ul>
+              <li>@MemoGeneralBot — управление заказчиком</li>
+              <li>@MemoFamilyBot — интервью и передача кодов</li>
+              <li>Авто-уведомления в Telegram и email</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="packages" id="packages">
+      <div class="container">
+        <div class="section-heading">
+          <span class="label">Тарифы</span>
+          <h2>Выберите семейный комплект</h2>
+        </div>
+        <div class="package-grid">
+          <article class="package-card">
+            <h3>Базовый</h3>
+            <p class="price">$10</p>
+            <ul>
+              <li>1 ветка эстафеты</li>
+              <li>До 6 участников</li>
+              <li>ИИ-интервьюер и авто-суммаризация</li>
+              <li>Уведомления для заказчика</li>
+            </ul>
+            <a class="btn secondary" href="#cta">Выбрать</a>
+          </article>
+          <article class="package-card popular">
+            <span class="badge">Хит</span>
+            <h3>Стандарт</h3>
+            <p class="price">$20</p>
+            <ul>
+              <li>3 ветки эстафеты</li>
+              <li>До 18 участников</li>
+              <li>Расширенная аналитика по прогрессу</li>
+              <li>Приоритетная поддержка</li>
+            </ul>
+            <a class="btn primary" href="#cta">Запустить</a>
+          </article>
+          <article class="package-card">
+            <h3>Премиум</h3>
+            <p class="price">$35</p>
+            <ul>
+              <li>6 веток эстафеты</li>
+              <li>До 36 участников</li>
+              <li>Детальный отчёт по веткам</li>
+              <li>Настройка сценариев уведомлений</li>
+            </ul>
+            <a class="btn secondary" href="#cta">Выбрать</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="metrics" id="metrics">
+      <div class="container">
+        <div class="section-heading">
+          <span class="label">Метрики успеха</span>
+          <h2>Что измеряем в MVP</h2>
+        </div>
+        <div class="metrics-grid">
+          <article class="metric-card">
+            <h3>Conversion Rate</h3>
+            <p class="metric-value">15%+</p>
+            <p>Код семьи → оплата заказа. Отслеживаем эффективность воронки.</p>
+          </article>
+          <article class="metric-card">
+            <h3>Activation Rate</h3>
+            <p class="metric-value">70%+</p>
+            <p>Оплата → запуск первого интервью. Следим за онбордингом.</p>
+          </article>
+          <article class="metric-card">
+            <h3>Completion Rate</h3>
+            <p class="metric-value">80%+</p>
+            <p>Прошёл интервью → завершил. Подтверждает качество сценария.</p>
+          </article>
+          <article class="metric-card">
+            <h3>Viral Coefficient</h3>
+            <p class="metric-value">0.8</p>
+            <p>Сколько кодов передаёт один участник. Сердце эстафеты.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="post-mvp" id="roadmap">
+      <div class="container">
+        <div class="section-heading">
+          <span class="label">Roadmap</span>
+          <h2>Куда ведёт синяя нить после MVP</h2>
+        </div>
+        <div class="roadmap-grid">
+          <article class="roadmap-card">
+            <h3>Версия 1.1</h3>
+            <p>Автогенерация цифровых хроник, персонализация вопросов, улучшенная аналитика.</p>
+          </article>
+          <article class="roadmap-card">
+            <h3>Версия 1.5</h3>
+            <p>Поддержка фото и аудио, простые генеалогические деревья, редактирование черновиков.</p>
+          </article>
+          <article class="roadmap-card">
+            <h3>Версия 2.0</h3>
+            <p>Печатные книги, white-label для B2B, мультиязычность и расширенные сервисы.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="audience" id="audience">
+      <div class="container">
+        <div class="section-heading">
+          <span class="label">Для кого</span>
+          <h2>Анна, 38 лет — и тысячи похожих семей</h2>
+        </div>
+        <div class="audience-layout">
+          <div class="audience-story">
+            <h3>Сценарий</h3>
+            <p>
+              Анна хочет собрать истории бабушек и дедушек для своих детей. У неё нет времени придумывать вопросы и организовывать всех. MemoFamily автоматически собирает родственников в Telegram, ведёт интервью и формирует готовую хронику.
+            </p>
+          </div>
+          <div class="audience-insights">
+            <h3>Ключевые инсайты</h3>
+            <ul>
+              <li>Возраст 30–50, активные пользователи Telegram.</li>
+              <li>Желание «не упустить» семейную память и передать её детям.</li>
+              <li>Высокая готовность к технологиям, если они тёплые и понятные.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="exclusions" id="exclusions">
+      <div class="container">
+        <div class="section-heading">
+          <span class="label">Фокус MVP</span>
+          <h2>Что внутри и что оставили на потом</h2>
+        </div>
+        <div class="exclusions-grid">
+          <div class="exclusion-list included">
+            <h3>Включено</h3>
+            <ul>
+              <li>Эстафетная механика с кодами</li>
+              <li>ИИ-интервьюер и автообработка</li>
+              <li>Система уведомлений</li>
+              <li>Базовая аналитика</li>
+            </ul>
+          </div>
+          <div class="exclusion-list excluded">
+            <h3>Пока без</h3>
+            <ul>
+              <li>PDF и печать книг</li>
+              <li>Мультимедиа и генеалогия</li>
+              <li>Редактирование черновиков</li>
+              <li>Мультиязычность и соцсети</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="callout" id="cta">
+      <div class="container">
+        <div class="callout-inner">
+          <div class="callout-copy">
+            <h2>Передайте нить воспоминаний уже сегодня</h2>
+            <p>Получите код семьи, пригласите родственников и смотрите, как ваша семейная история рождается в заботливых руках ИИ-интервьюера.</p>
+          </div>
+          <a class="btn light" href="https://t.me/MemoGeneralBot" target="_blank" rel="noopener">Получить доступ</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="logo">
+        <span class="logo-pill">MEMO</span>
+        <span class="logo-text">Family</span>
+      </div>
+      <p>© 2025 MemoFamily. Сбережём семейную память вместе.</p>
+      <div class="footer-links">
+        <a href="#concept">О проекте</a>
+        <a href="#packages">Тарифы</a>
+        <a href="#cta">Контакты</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
